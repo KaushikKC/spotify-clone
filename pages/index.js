@@ -1,16 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Sidebar from '../components/Sidebar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Spotify</title>
+    <div className>
+      <main>
+        <Sidebar />
         
-      </Head>
-
-      <h1>This is the spotify</h1>
+        {/*Center */}
+      </main>
     </div>
   )
 }
